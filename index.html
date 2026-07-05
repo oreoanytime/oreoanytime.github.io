@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adrianus Tjoatja Widjaja | Data Platform Engineer</title>
+  <meta name="description" content="Adrianus Tjoatja Widjaja, Data & Platform Engineer. Building data solutions tailored to your needs, owning systems end to end." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://adrianuswidjaja.com/" />
+  <meta property="og:title" content="Adrianus Tjoatja Widjaja · Data & Platform Engineer" />
+  <meta property="og:description" content="Building data solutions tailored to your needs. I find the real problem underneath, then design and own the system that solves it, end to end." />
+  <meta property="og:image" content="https://adrianuswidjaja.com/assets/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Adrianus Tjoatja Widjaja, Data & Platform Engineer" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Adrianus Tjoatja Widjaja · Data & Platform Engineer" />
+  <meta name="twitter:description" content="Building data solutions tailored to your needs. I find the real problem underneath, then design and own the system that solves it, end to end." />
+  <meta name="twitter:image" content="https://adrianuswidjaja.com/assets/og.png" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="canonical" href="https://adrianuswidjaja.com/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=17" />
+</head>
+<body>
+
+  <!-- ===================== ICON SPRITE ===================== -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-hub" viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.6"/><circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="12" cy="20" r="2"/><path d="M10.2 10.4 6.6 7.4M13.8 10.4l3.6-3M12 14.6V18"/></symbol>
+      <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></symbol>
+      <symbol id="i-bot" viewBox="0 0 24 24"><rect x="5" y="8" width="14" height="11" rx="3"/><path d="M12 8V4.5M9 3.5h6"/><circle cx="9.6" cy="13" r="1.2"/><circle cx="14.4" cy="13" r="1.2"/><path d="M3 12.5v3M21 12.5v3"/></symbol>
+      <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M16 5.2a3.2 3.2 0 0 1 0 6.1M17.6 14.4c2 .8 3.4 2.8 3.4 5.1"/></symbol>
+      <symbol id="i-gauge" viewBox="0 0 24 24"><path d="M4 18a8 8 0 1 1 16 0"/><path d="M12 14l4-3"/><circle cx="12" cy="18" r="1.4"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+      <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 3 3 8l9 5 9-5-9-5z"/><path d="M3 13l9 5 9-5"/><path d="M3 16.5l9 5 9-5"/></symbol>
+      <symbol id="i-network" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="5" rx="1"/><rect x="3" y="16" width="6" height="5" rx="1"/><rect x="15" y="16" width="6" height="5" rx="1"/><path d="M12 8v3.5M12 11.5H6V16M12 11.5h6V16"/></symbol>
+      <symbol id="i-pipe" viewBox="0 0 24 24"><path d="M3 7h6a3 3 0 0 1 3 3v4a3 3 0 0 0 3 3h6"/><circle cx="4" cy="7" r="1.6"/><circle cx="20" cy="17" r="1.6"/></symbol>
+      <symbol id="i-server" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="7" rx="2"/><rect x="3" y="13" width="18" height="7" rx="2"/><path d="M7 7.5h.01M7 16.5h.01M17 7.5h1M17 16.5h1"/></symbol>
+      <symbol id="i-code" viewBox="0 0 24 24"><path d="M9 8l-4 4 4 4M15 8l4 4-4 4"/></symbol>
+      <symbol id="i-loop" viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 13.7-5.6L20 8"/><path d="M20 4v4h-4"/><path d="M20 12a8 8 0 0 1-13.7 5.6L4 16"/><path d="M4 20v-4h4"/></symbol>
+      <symbol id="i-blueprint" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 9v11"/><circle cx="15.5" cy="14.5" r="2"/></symbol>
+      <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3v3.5M12 17.5V21M3 12h3.5M17.5 12H21"/><path d="M12 8l1.4 2.6L16 12l-2.6 1.4L12 16l-1.4-2.6L8 12l2.6-1.4z"/></symbol>
+      <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V4M4 20h16"/><rect x="7" y="12" width="3" height="5" rx="1"/><rect x="12" y="8" width="3" height="9" rx="1"/><rect x="17" y="10" width="3" height="7" rx="1"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10.5V16M8 7.5v.01M12.5 16v-3.2a2.3 2.3 0 0 1 4.5 0V16"/></symbol>
+      <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-4 1.4-4-2.4-6-3m12 5v-3.4c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2S17 2.7 14.6 4.3a12 12 0 0 0-6 0C6.2 2.7 5.1 3 5.1 3a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 3.7 9.4c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></symbol>
+      <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="m20 20-3.5-3.5"/></symbol>
+      <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4M5 4h11l-2 4 2 4H5"/></symbol>
+      <symbol id="i-rocket" viewBox="0 0 24 24"><path d="M12 3c3 1.4 5 4.6 5 8.5L15 16H9l-2-4.5C7 7.6 9 4.4 12 3z"/><circle cx="12" cy="9.5" r="1.6"/><path d="M9 16l-2.5 4 3.2-1.2M15 16l2.5 4-3.2-1.2"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <linearGradient id="mgrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    </defs>
+  </svg>
+
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-bar"></span></div>
+  <div class="orbs" aria-hidden="true"><span class="orb orb--a"></span><span class="orb orb--b"></span></div>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__brand"><svg class="ic"><use href="#i-hub"/></svg><span>Adrianus</span></a>
+    <span class="nav__tag"><strong>Adrianus Widjaja</strong><span class="nav__tag-sub">data platforms</span></span>
+    <nav class="nav__pill" id="navpill" aria-label="Sections">
+      <span class="nav__thumb" id="navthumb" aria-hidden="true"></span>
+      <a href="#mandate" data-nav="mandate"><i>01</i>Approach</a>
+      <a href="#impact" data-nav="impact"><i>02</i>Impact</a>
+      <a href="#casestudy" data-nav="casestudy"><i>03</i>Platform</a>
+      <a href="#inside" data-nav="inside"><i>04</i>Inside</a>
+      <a href="#automation" data-nav="automation"><i>05</i>Automation</a>
+      <a href="#lenses" data-nav="lenses"><i>06</i>Roles</a>
+      <a href="#toolbox" data-nav="toolbox"><i>07</i>Stack</a>
+    </nav>
+    <a href="#contact" class="nav__cta"><svg class="ic"><use href="#i-mail"/></svg><span>Contact</span></a>
+  </header>
+
+  <main id="top">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <div class="hero__wrap">
+        <div class="hero__copy">
+          <p class="hero__eyebrow" data-hero><span class="pulse"></span> Data &amp; Platform Engineering</p>
+          <h1 class="hero__title">
+            <span class="line" data-words>Building data solutions</span>
+            <span class="line accent" data-words>tailored to your needs</span>
+          </h1>
+          <p class="hero__rotator" data-hero>
+            <span class="hero__rotator-label">I think as a</span>
+            <span class="rotator" id="rotator" aria-live="polite"><span class="rotator__item is-active">Data Engineer</span></span>
+          </p>
+          <p class="hero__lede" data-hero>Given an open-ended goal, I find the real problem underneath it, then design and own the system that solves it. Solutions are shaped around how people operate, aiming to make their work easier.</p>
+          <div class="hero__ctas" data-hero>
+            <a class="btn btn--primary" href="https://www.linkedin.com/in/adrianus-tjoatja-widjaja-a96b75177/" target="_blank" rel="noopener"><svg class="ic"><use href="#i-linkedin"/></svg> LinkedIn</a>
+            <a class="btn" href="mailto:adrianus.t.widjaja@gmail.com"><svg class="ic"><use href="#i-mail"/></svg> Email</a>
+          </div>
+        </div>
+
+        <!-- Real architecture flow, branded + animated -->
+        <figure class="hero__viz" data-hero>
+          <div class="dscroll"><svg id="flow" viewBox="0 0 520 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Architecture: storage and query engines feed a FastAPI backend that serves a viewer, dashboards, and alerts.">
+            <defs>
+              <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+            </defs>
+            <g class="viz-label"><text x="70" y="34">STORAGE &middot; QUERY</text><text x="260" y="34">BACKEND</text><text x="452" y="34">SERVE</text></g>
+
+            <g class="edges" stroke="url(#edge)" fill="none" stroke-width="1.6">
+              <path class="edge" d="M92 78 C180 78 190 175 236 175"/>
+              <path class="edge" d="M92 143 C180 143 190 175 236 175"/>
+              <path class="edge" d="M92 208 C180 208 190 175 236 175"/>
+              <path class="edge" d="M92 273 C180 273 190 175 236 175"/>
+              <path class="edge" d="M284 175 C360 175 372 92 430 92"/>
+              <path class="edge" d="M284 175 C360 175 372 175 430 175"/>
+              <path class="edge" d="M284 175 C360 175 372 258 430 258"/>
+            </g>
+            <g class="routes" fill="none" stroke="none">
+              <path id="rA" d="M92 78 C180 78 190 175 260 175 C360 175 372 92 452 92"/>
+              <path id="rB" d="M92 143 C180 143 190 175 260 175 C360 175 372 175 452 175"/>
+              <path id="rC" d="M92 208 C180 208 190 175 260 175 C360 175 372 258 452 258"/>
+              <path id="rD" d="M92 273 C180 273 190 175 260 175 C360 175 372 92 452 92"/>
+            </g>
+            <g class="packets"></g>
+
+            <g class="nodes">
+              <g class="node node--src" tabindex="0"><circle cx="70" cy="78" r="22"/><svg class="brand" x="58" y="66" width="24" height="24" viewBox="0 0 24 24"><path fill="#dfe5ee" d="M12.19 2.38a9.344 9.344 0 0 0-9.234 6.893c.053-.02-.055.013 0 0-3.875 2.551-3.922 8.11-.247 10.941l.006-.007-.007.03a6.717 6.717 0 0 0 4.077 1.356h5.173l.03.03h5.192c6.687.053 9.376-8.605 3.835-12.35a9.365 9.365 0 0 0-2.821-4.552l-.043.043.006-.05A9.344 9.344 0 0 0 12.19 2.38zm-.358 4.146c1.244-.04 2.518.368 3.486 1.15a5.186 5.186 0 0 1 1.862 4.078v.518c3.53-.07 3.53 5.262 0 5.193h-5.193l-.008.009v-.04H6.785a2.59 2.59 0 0 1-1.067-.23h.001a2.597 2.597 0 1 1 3.437-3.437l3.013-3.012A6.747 6.747 0 0 0 8.11 8.24c.018-.01.04-.026.054-.023a5.186 5.186 0 0 1 3.67-1.69z"/></svg><text x="70" y="116">GCS</text></g>
+              <g class="node node--src" tabindex="0"><circle cx="70" cy="143" r="22"/><svg class="brand" x="58" y="133" width="24" height="20" viewBox="0 0 24 24"><path fill="#dfe5ee" d="M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.04.063.056.127.056.183 0 .08-.048.16-.152.24l-.503.335a.383.383 0 0 1-.208.072c-.08 0-.16-.04-.239-.112a2.47 2.47 0 0 1-.287-.375 6.18 6.18 0 0 1-.248-.471c-.622.734-1.405 1.101-2.347 1.101-.67 0-1.205-.191-1.596-.574-.391-.384-.59-.894-.59-1.533 0-.678.239-1.23.726-1.644.487-.415 1.133-.623 1.955-.623.272 0 .551.024.846.064.296.04.6.104.918.176v-.583c0-.607-.127-1.03-.375-1.277-.255-.248-.686-.367-1.3-.367-.28 0-.568.031-.863.103-.295.072-.583.16-.862.272a2.287 2.287 0 0 1-.28.104.488.488 0 0 1-.127.023c-.112 0-.168-.08-.168-.247v-.391c0-.128.016-.224.056-.28a.597.597 0 0 1 .224-.167c.279-.144.614-.264 1.005-.36a4.84 4.84 0 0 1 1.246-.151c.95 0 1.644.216 2.091.647.439.43.662 1.085.662 1.963v2.586zm-3.24 1.214c.263 0 .534-.048.822-.144.287-.096.543-.271.758-.51.128-.152.224-.32.272-.512.047-.191.08-.423.08-.694v-.335a6.66 6.66 0 0 0-.735-.136 6.02 6.02 0 0 0-.75-.048c-.535 0-.926.104-1.19.32-.263.215-.39.518-.39.917 0 .375.095.655.295.846.191.2.47.296.838.296zm6.41.862c-.144 0-.24-.024-.304-.08-.064-.048-.12-.16-.168-.311L7.586 5.55a1.398 1.398 0 0 1-.072-.32c0-.128.064-.2.191-.2h.783c.151 0 .255.025.31.08.065.048.113.16.16.312l1.342 5.284 1.245-5.284c.04-.16.088-.264.151-.312a.549.549 0 0 1 .32-.08h.638c.152 0 .256.025.32.08.063.048.12.16.151.312l1.261 5.348 1.381-5.348c.048-.16.104-.264.16-.312a.52.52 0 0 1 .311-.08h.743c.127 0 .2.065.2.2 0 .04-.009.08-.017.128a1.137 1.137 0 0 1-.056.2l-1.923 6.17c-.048.16-.104.263-.168.311a.51.51 0 0 1-.303.08h-.687c-.151 0-.255-.024-.32-.08-.063-.056-.119-.16-.15-.32l-1.238-5.148-1.23 5.14c-.04.16-.087.264-.15.32-.065.056-.177.08-.32.08zm10.256.215c-.415 0-.83-.048-1.229-.143-.399-.096-.71-.2-.918-.32-.128-.071-.215-.151-.247-.223a.563.563 0 0 1-.048-.224v-.407c0-.167.064-.247.183-.247.048 0 .096.008.144.024.048.016.12.048.2.08.271.12.566.215.878.279.319.064.63.096.95.096.502 0 .894-.088 1.165-.264a.86.86 0 0 0 .415-.758.777.777 0 0 0-.215-.559c-.144-.151-.416-.287-.807-.415l-1.157-.36c-.583-.183-1.014-.454-1.277-.813a1.902 1.902 0 0 1-.4-1.158c0-.335.073-.63.216-.886.144-.255.335-.479.575-.654.24-.184.51-.32.83-.415.32-.096.655-.136 1.006-.136.175 0 .359.008.535.032.183.024.35.056.518.088.16.04.312.08.455.127.144.048.256.096.336.144a.69.69 0 0 1 .24.2.43.43 0 0 1 .071.263v.375c0 .168-.064.256-.184.256a.83.83 0 0 1-.303-.096 3.652 3.652 0 0 0-1.532-.311c-.455 0-.815.071-1.062.223-.248.152-.375.383-.375.71 0 .224.08.416.24.567.159.152.454.304.877.44l1.134.358c.574.184.99.44 1.237.767.247.327.367.702.367 1.117 0 .343-.072.655-.207.926-.144.272-.336.511-.583.703-.248.2-.543.343-.886.447-.36.111-.734.167-1.142.167zM21.698 16.207c-2.626 1.94-6.442 2.969-9.722 2.969-4.598 0-8.74-1.7-11.87-4.526-.247-.223-.024-.527.272-.351 3.384 1.963 7.559 3.153 11.877 3.153 2.914 0 6.114-.607 9.06-1.852.439-.2.814.287.383.607zM22.792 14.961c-.336-.43-2.22-.207-3.074-.103-.255.032-.295-.192-.063-.36 1.5-1.053 3.967-.75 4.254-.399.287.36-.08 2.826-1.485 4.007-.215.184-.423.088-.327-.151.32-.79 1.03-2.57.695-2.994z"/></svg><text x="70" y="181">AWS S3</text></g>
+              <g class="node node--src" tabindex="0"><circle cx="70" cy="208" r="22"/><svg class="brand" x="58" y="196" width="24" height="24" viewBox="0 0 24 24"><path fill="#dfe5ee" d="M21.333 10H24v4h-2.667ZM16 1.335h2.667v21.33H16Zm-5.333 0h2.666v21.33h-2.666ZM0 22.665V1.335h2.667v21.33zm5.333-21.33H8v21.33H5.333Z"/></svg><text x="70" y="246">ClickHouse</text></g>
+              <g class="node node--src" tabindex="0"><circle cx="70" cy="273" r="22"/><svg class="brand" x="58" y="261" width="24" height="24" viewBox="0 0 24 24"><path fill="#dfe5ee" d="M14.124 16.8529a.1615.1615 0 1 1 .1576.1614.1577.1577 0 0 1-.1576-.1614zm-5.607-.1576a.1614.1614 0 1 0 0 .3228.1614.1614 0 0 0 0-.3228zm10.1341-.6648v1.9869c-.031.5788-.524 1.0237-1.1029.9954h-.3843a5.0596 5.0596 0 0 1-1.1298 1.7178.3192.3192 0 0 0 0 .465l.2382.2191a.3036.3036 0 0 1 .0385.4304c-1.126 1.3835-2.9669 2.1521-5.0498 2.1521a6.575 6.575 0 0 1-4.8192-1.8985c-.0029-.0032-.0059-.0063-.0087-.0096a.6302.6302 0 0 1 .0548-.8896c.137-.1265.1371-.3462 0-.4727a4.944 4.944 0 0 1-1.126-1.714h-.3497c-.5797.0284-1.0737-.416-1.1068-.9954v-1.9869c.0351-.5779.5286-1.02 1.1068-.9915h.2728a5.7648 5.7648 0 0 1 2.0791-3.0936c-.4227-1.0991-1.1529-3.2551-1.226-5.0075C6.0229 4.4705 6.2189.078 7.8253.001c1.6064-.0768 1.3719 4.0275 1.0991 6.6946a32.732 32.732 0 0 0-.123 4.4503 6.994 6.994 0 0 1 2.4826-.4304 7.2414 7.2414 0 0 1 1.7371.2075c.2614-1.2682.8762-3.574 2.0292-5.1958 1.6717-2.352 3.4357-4.7808 4.6116-4.1006 1.176.6802-.3074 3.1398-1.3297 4.4272-1.0222 1.2874-2.7862 3.2089-3.3742 4.2274-.2114.3843-.4304.8032-.5956 1.1529a5.7375 5.7375 0 0 1 2.9169 3.6125h.073v-2.3058a.3075.3075 0 0 0-.1806-.2844.9148.9148 0 0 1-.5573-.8148 1.0184 1.0184 0 0 1 .9045-.9044c.5593-.0598 1.061.3452 1.1208.9044a.9187.9187 0 0 1-.5534.8148.3074.3074 0 0 0-.1691.2844v2.1522a.3113.3113 0 0 0 .1691.2805.9724.9724 0 0 1 .5648.857zm-1.0222-3.9737a.4345.4345 0 0 0 .4612-.4151.4151.4151 0 1 0-.4612.4151zm-.4227 3.4779c.0978.4794.148.9672.1498 1.4565v.3651h.4113a.3228.3228 0 0 0 .3228-.319v-1.0069c-.0111-.2967-.2733-.5256-.5688-.4957h-.3151zm-3.7278-4.481.611.2383a36.6046 36.6046 0 0 1 2.3828-3.8661c1.2874-1.7255 2.3365-3.5817 1.8715-3.8699-.465-.2883-1.6179 1.2297-2.7708 3.109a34.8978 34.8978 0 0 0-2.0945 4.3887zm-4.0544.6726.0154 1.3335c-.0039.2007.1881.3587.3843.3152a6.4317 6.4317 0 0 1 1.4565-.1653 5.995 5.995 0 0 1 1.4527.1729c.1956.0398.3853-.1153.3843-.3151v-1.3412a.319.319 0 0 0-.2421-.3113 6.664 6.664 0 0 0-1.6026-.1845 6.7093 6.7093 0 0 0-1.6025.1845.3188.3188 0 0 0-.246.3113zm1.7063 6.8637v.3843a.6878.6878 0 0 1-.4996.269c-.3074 0-.538-.4189-.538-.4189a.073.073 0 0 0-.1-.0307l-.0024.0013a.0693.0693 0 0 0-.0245.0947c.0115.0231.2806.4957.6649.4957a.7144.7144 0 0 0 .3843-.1268.3267.3267 0 0 1 .3612 0 .8332.8332 0 0 0 .4727.1345.957.957 0 0 0 .6572-.4803.0692.0692 0 0 0-.0269-.0961.0692.0692 0 0 0-.0999.0269c0 .0231-.2191.3843-.5419.4074a.8036.8036 0 0 1-.5765-.269v-.3843a.3154.3154 0 0 1 .1268-.2537c.196-.1499.415-.3958.415-.4919a.538.538 0 0 0-.5764-.4189c-.3766 0-.6533.2498-.6533.4573 0 .1345.2536.3382.4227.4612a.3226.3226 0 0 1 .1346.2383zM7.783 11.6455l.5765-.3074c-.0192-1.126-.0346-3.1436 0-4.5425.0538-2.0368.1537-4.5732-.5226-4.5463S6.6877 4.2285 6.949 7.007a33.0562 33.0562 0 0 0 .834 4.6385zm-3.305 5.3919a.319.319 0 0 0 .319.319h.3997a3.046 3.046 0 0 1 0-.3651 7.546 7.546 0 0 1 .1461-1.4565c-.0493.0002-.34.0005-.3866-.0021a.4881.4881 0 0 0-.4781.4979v1.0068zm.9184 1.4718a5.3254 5.3254 0 0 1-.123-.5573.3228.3228 0 0 0-.319-.2728h-.4957c.0007.0163-.0015.34.0009.355a.5188.5188 0 0 0 .5526.4827l.3842-.0076zm10.1265 2.917-.0884-.0807a.3229.3229 0 0 0-.3843-.0269 6.9823 6.9823 0 0 1-3.8046 1.0068 6.995 6.995 0 0 1-3.7932-1.0068.3228.3228 0 0 0-.3843.0269l-.0884.0807a.3154.3154 0 0 0 0 .4573 6.0305 6.0305 0 0 0 4.2927 1.5988 6.0453 6.0453 0 0 0 4.2889-1.5988.315.315 0 0 0-.0384-.4573zm1.4488-4.4158c0-2.4557-1.1529-4.3273-3.0245-5.2266-.2081-.1022-.4673.0594-.465.2921v1.3297a.3269.3269 0 0 0 .2037.296c1.7332.7109 2.9284 2.1866 2.9284 3.8776 0 2.2712-2.1559 3.8085-5.3419 3.8085-3.1859 0-5.3419-1.5411-5.3419-3.8085 0-1.691 1.1952-3.1667 2.9284-3.8776a.319.319 0 0 0 .2037-.296v-1.322c.0048-.2315-.2536-.3963-.4612-.2921-1.887.8839-3.0399 2.767-3.0399 5.2073 0 2.9899 2.2866 4.996 5.7108 4.996 3.4282.0001 5.6994-2.0098 5.6994-4.9844zm-8.6084-.538h-.0038a.5842.5842 0 1 0 .0038 0zm5.1614.5919c.0063.3226.2615.5789.584.5725a.5842.5842 0 1 0-.584-.5725zm4.5692.6225h-.4996a.3227.3227 0 0 0-.3151.2728c-.0346.173-.0768.3766-.1268.5573.0163.0007.3861-.0014.4012.0009a.5188.5188 0 0 0 .5366-.5004l.0037-.3306z"/></svg><text x="70" y="311">Trino</text></g>
+
+              <g class="node node--mid" tabindex="0"><rect x="236" y="150" width="48" height="50" rx="13"/><svg class="brand" x="248" y="162" width="24" height="24" viewBox="0 0 24 24"><path fill="#dfe5ee" d="M12 .0387C5.3729.0384.0003 5.3931 0 11.9988c-.001 6.6066 5.372 11.9628 12 11.9625 6.628.0003 12.001-5.3559 12-11.9625-.0003-6.6057-5.3729-11.9604-12-11.96m-.829 5.4153h7.55l-7.5805 5.3284h5.1828L5.279 18.5436q2.9466-6.5444 5.892-13.0896"/></svg><text x="260" y="222">FastAPI</text></g>
+
+              <g class="node node--sink" tabindex="0"><circle cx="452" cy="92" r="22"/><svg class="nic" x="440" y="80" width="24" height="24"><use href="#i-monitor"/></svg><text x="452" y="58">viewer SPA</text></g>
+              <g class="node node--sink" tabindex="0"><circle cx="452" cy="175" r="22"/><svg class="brand" x="440" y="163" width="24" height="24" viewBox="0 0 24 24"><path fill="#dfe5ee" d="M6.168 6.045C2.603 6.045 0 8.579 0 12.014c0 3.434 2.603 5.941 6.168 5.941 2.184 0 3.888-1.026 5.775-3.078 1.53 2.033 4.037 3.136 5.89 3.078 3.566 0 6.167-2.503 6.167-5.941 0-3.438-2.601-5.97-6.168-5.97-2.864 0-5.138 2.425-5.771 3.173-.76-.9-1.674-1.665-2.682-2.274-1.019-.588-2.084-.898-3.211-.898Zm2.875 1.303c1.156.595 1.952 1.42 2.639 2.304-.534.63-1.245 1.483-1.739 2.07-.56-.658-1.58-1.907-2.609-2.308ZM6.186 9.703c1.018.027 1.81.458 3.435 2.408-1.158 1.378-2.202 2.244-3.435 2.244-1.51 0-2.41-.99-2.41-2.31s.906-2.382 2.41-2.342zm11.535 0c1.51 0 2.408 1.026 2.408 2.342 0 1.315-.862 2.301-2.402 2.31-.571-.037-1.529-.026-3.442-2.314l.074-.09.002.002c1.122-1.328 2.097-2.25 3.36-2.25zm-3.762 2.738c.61.68 1.795 1.988 2.713 2.24l-1.684 2.016h-.002c-.753-.371-2.031-1.134-2.716-2.215l1.689-2.04z"/></svg><text x="452" y="213">Superset</text></g>
+              <g class="node node--sink" tabindex="0"><circle cx="452" cy="258" r="22"/><svg class="brand" x="440" y="246" width="24" height="24" viewBox="0 0 24 24"><path fill="#dfe5ee" d="M20.625 8.127q-.55 0-1.025-.205-.475-.205-.832-.563-.358-.357-.563-.832Q18 6.053 18 5.502q0-.54.205-1.02t.563-.837q.357-.358.832-.563.474-.205 1.025-.205.54 0 1.02.205t.837.563q.358.357.563.837.205.48.205 1.02 0 .55-.205 1.025-.205.475-.563.832-.357.358-.837.563-.48.205-1.02.205zm0-3.75q-.469 0-.797.328-.328.328-.328.797 0 .469.328.797.328.328.797.328.469 0 .797-.328.328-.328.328-.797 0-.469-.328-.797-.328-.328-.797-.328zM24 10.002v5.578q0 .774-.293 1.46-.293.685-.803 1.194-.51.51-1.195.803-.686.293-1.459.293-.445 0-.908-.105-.463-.106-.85-.329-.293.95-.855 1.729-.563.78-1.319 1.336-.756.557-1.67.861-.914.305-1.898.305-1.148 0-2.162-.398-1.014-.399-1.805-1.102-.79-.703-1.312-1.664t-.674-2.086h-5.8q-.411 0-.704-.293T0 16.881V6.873q0-.41.293-.703t.703-.293h8.59q-.34-.715-.34-1.5 0-.727.275-1.365.276-.639.75-1.114.475-.474 1.114-.75.638-.275 1.365-.275t1.365.275q.639.276 1.114.75.474.475.75 1.114.275.638.275 1.365t-.275 1.365q-.276.639-.75 1.113-.475.475-1.114.75-.638.276-1.365.276-.188 0-.375-.024-.188-.023-.375-.058v1.078h10.875q.469 0 .797.328.328.328.328.797zM12.75 2.373q-.41 0-.78.158-.368.158-.638.434-.27.275-.428.639-.158.363-.158.773 0 .41.158.78.159.368.428.638.27.27.639.428.369.158.779.158.41 0 .773-.158.364-.159.64-.428.274-.27.433-.639.158-.369.158-.779 0-.41-.158-.773-.159-.364-.434-.64-.275-.275-.639-.433-.363-.158-.773-.158zM6.937 9.814h2.25V7.94H2.814v1.875h2.25v6h1.875zm10.313 7.313v-6.75H12v6.504q0 .41-.293.703t-.703.293H8.309q.152.809.556 1.5.405.691.985 1.19.58.497 1.318.779.738.281 1.582.281.926 0 1.746-.352.82-.351 1.436-.966.615-.616.966-1.43.352-.815.352-1.752zm5.25-1.547v-5.203h-3.75v6.855q.305.305.691.452.387.146.809.146.469 0 .879-.176.41-.175.715-.48.304-.305.48-.715t.176-.879Z"/></svg><text x="452" y="296">Teams</text></g>
+            </g>
+          </svg></div>
+          <figcaption>My real stack: storage and query engines feed one backend that powers the tools people use.</figcaption>
+        </figure>
+      </div>
+      <a href="#mandate" class="hero__scroll" aria-label="Scroll to content"><span></span></a>
+    </section>
+
+    <!-- ===================== APPROACH ===================== -->
+    <section class="section" id="mandate">
+      <div class="wrap">
+        <header class="shead" data-reveal>
+          <p class="shead__kicker"><svg class="ic"><use href="#i-compass"/></svg> 01 &middot; Approach</p>
+          <h2 class="shead__title">The goal was set.<br>The path was mine to find.</h2>
+        </header>
+
+        <div class="steps">
+          <div class="step" data-reveal>
+            <span class="step__ic"><svg class="ic"><use href="#i-flag"/></svg></span>
+            <span class="step__no">01</span>
+            <h3>A broad mandate</h3>
+            <p>Ingest the data, learn the schemas, build dashboards. A starting point, but the capability teams truly needed was still unclear.</p>
+          </div>
+          <span class="step__arrow" aria-hidden="true"><svg class="ic"><use href="#i-arrow"/></svg></span>
+          <div class="step" data-reveal>
+            <span class="step__ic"><svg class="ic"><use href="#i-search"/></svg></span>
+            <span class="step__no">02</span>
+            <h3>Embed &amp; discover</h3>
+            <p>Worked beside the people closest to the data to find where it actually hurt.</p>
+          </div>
+          <span class="step__arrow" aria-hidden="true"><svg class="ic"><use href="#i-arrow"/></svg></span>
+          <div class="step" data-reveal>
+            <span class="step__ic"><svg class="ic"><use href="#i-rocket"/></svg></span>
+            <span class="step__no">03</span>
+            <h3>Decide and ship it, solo</h3>
+            <p>Architecture, stack, deployment, roadmap, vision: every call, mine.</p>
+          </div>
+        </div>
+
+        <div class="statement" data-reveal>
+          <p class="statement__big">Give me a direction, not a spec.</p>
+          <p class="statement__sub">I turn ambiguity into infrastructure, and own every decision in between.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== IMPACT ===================== -->
+    <section class="section band" id="impact">
+      <div class="wrap">
+        <header class="shead" data-reveal>
+          <p class="shead__kicker"><svg class="ic"><use href="#i-spark"/></svg> 02 &middot; Impact</p>
+          <h2 class="shead__title">What changed because the work exists.</h2>
+        </header>
+        <div class="impact-grid">
+          <article class="icard" data-reveal>
+            <span class="icard__icon"><svg class="ic"><use href="#i-gauge"/></svg></span>
+            <div class="icard__stat"><em>~</em><span class="count" data-count="50">0</span><em>%</em></div>
+            <h3>Faster to root-cause</h3>
+            <p>No more downloading archives, unzipping, and estimating where the fault might be. It surfaces the <strong>exact</strong> failing cases, and the sessions behind a complaint, so you inspect the right ones, not a random sample.</p>
+          </article>
+          <article class="icard" data-reveal>
+            <span class="icard__icon"><svg class="ic"><use href="#i-network"/></svg></span>
+            <div class="icard__stat"><span class="count" data-count="10">0</span><em>+</em></div>
+            <h3>Sources, one interface</h3>
+            <p>Postgres, MongoDB, Elasticsearch, cloud storage, SharePoint and Jira, all reachable through one interface.</p>
+          </article>
+          <article class="icard" data-reveal>
+            <span class="icard__icon"><svg class="ic"><use href="#i-users"/></svg></span>
+            <div class="icard__stat"><span class="count" data-count="7">0</span></div>
+            <h3>Roles rely on it</h3>
+            <p>Adopted across engineering, product, and customer-facing teams.</p>
+          </article>
+          <article class="icard" data-reveal>
+            <span class="icard__icon"><svg class="ic"><use href="#i-bot"/></svg></span>
+            <div class="icard__stat"><span class="count" data-count="0">0</span></div>
+            <h3>Manual steps in QA</h3>
+            <p>Test results reach the dashboards and the team's channel on their own.</p>
+          </article>
+        </div>
+        <p class="impact-note" data-reveal>One tool across <strong>5 device families</strong> &middot; 20+ modules &middot; shipped solo in ~6 months.</p>
+      </div>
+    </section>
+
+    <!-- ===================== PLATFORM / CASE STUDY ===================== -->
+    <section class="section" id="casestudy">
+      <div class="wrap">
+        <header class="shead" data-reveal>
+          <p class="shead__kicker"><svg class="ic"><use href="#i-layers"/></svg> 03 &middot; The platform</p>
+          <h2 class="shead__title">A debugging &amp; analytics platform, from scratch.</h2>
+          <p class="shead__sub">Telemetry that used to be locked away is now a self-serve tool teams open every day. Built solo in about six months.</p>
+        </header>
+
+        <div class="decgrid">
+          <div class="dec" data-reveal><span class="dec__ic"><svg class="ic"><use href="#i-code"/></svg></span><h3>Zero-build frontend</h3><p>Hand-bundled vanilla JS with no framework, so there is almost nothing to maintain.</p></div>
+          <div class="dec" data-reveal><span class="dec__ic"><svg class="ic"><use href="#i-blueprint"/></svg></span><h3>Feature "fences"</h3><p>Each feature is walled off behind its own markers, so any one can be removed in a single pass without touching the rest.</p></div>
+          <div class="dec" data-reveal><span class="dec__ic"><svg class="ic"><use href="#i-loop"/></svg></span><h3>Graceful degradation</h3><p>If a dependency or module fails to load, the rest of the page keeps working.</p></div>
+          <div class="dec" data-reveal><span class="dec__ic"><svg class="ic"><use href="#i-network"/></svg></span><h3>Federation to ClickHouse</h3><p>Moved hot-path queries off live federation into denormalized ClickHouse tables, so common lookups stay fast.</p></div>
+          <div class="dec" data-reveal><span class="dec__ic"><svg class="ic"><use href="#i-server"/></svg></span><h3>Cache and warmer</h3><p>Disk-backed result cache, pre-warmed on the pipeline's refresh cadence, so we recompute only when the data changes.</p></div>
+          <div class="dec" data-reveal><span class="dec__ic"><svg class="ic"><use href="#i-gauge"/></svg></span><h3>Adaptive queries</h3><p>Search fan-out splits into chunks and reclassifies heavy vs light at runtime.</p></div>
+        </div>
+
+        <div class="capstrip" data-reveal>
+          <span class="capstrip__label">Shipped into one tool</span>
+          <div class="chips">
+            <span>Archive extraction</span><span>Media transcoding</span><span>Cross-source search</span>
+            <span>SSE / NDJSON streaming</span><span>Interactive analytics</span><span>AI-assisted insights</span>
+            <span>Self-serve sampling</span><span>RBAC &amp; audit</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== INSIDE THE PLATFORM (deep dive) ===================== -->
+    <section class="section band" id="inside">
+      <div class="wrap">
+        <header class="shead" data-reveal>
+          <p class="shead__kicker"><svg class="ic"><use href="#i-layers"/></svg> 04 &middot; Inside the platform</p>
+          <h2 class="shead__title">Four engines under one roof.</h2>
+          <p class="shead__sub">On-demand extraction, cross-source search, live analytics, and self-serve sampling, all on one FastAPI backend.</p>
+        </header>
+
+        <div class="modules">
+
+          <!-- Engine 1: Extraction -->
+          <article class="module" data-reveal>
+            <div class="module__head">
+              <span class="module__ic"><svg class="ic"><use href="#i-layers"/></svg></span>
+              <div><h3>Archive extraction</h3><p>Production <code>.tar</code> / <code>.tar.gz</code> / <code>.zip</code> pulled from cloud storage and unpacked on demand.</p></div>
+            </div>
+            <div class="module__viz">
+              <svg class="mviz" viewBox="0 0 300 160" role="img" aria-label="A nested archive unpacked by an extractor into unstructured media and structured files" data-flow>
+                <text class="mcap" x="243" y="9">unstructured</text>
+                <text class="mcap" x="243" y="100">structured</text>
+                <g class="mnode"><rect x="6" y="56" width="48" height="42" rx="9"/></g>
+                <g class="mnode"><rect x="14" y="64" width="48" height="42" rx="9"/><text class="mlbl" x="38" y="90">.tar.gz</text></g>
+                <path class="miniedge" d="M62 85 H98"/>
+                <circle class="ecore epulse" cx="120" cy="85" r="19"/>
+                <svg class="ic egear" x="108" y="73" width="24" height="24"><use href="#i-loop"/></svg>
+                <text class="mlbl" x="120" y="124">extract</text>
+                <path class="miniedge route" d="M139 85 C168 85 178 27 205 27"/>
+                <path class="miniedge route" d="M139 85 C168 85 180 53 205 53"/>
+                <path class="miniedge route" d="M139 85 C168 85 182 79 205 79"/>
+                <path class="miniedge route" d="M139 85 C168 85 180 119 205 119"/>
+                <path class="miniedge route" d="M139 85 C168 85 178 141 205 141"/>
+                <g class="packets"></g>
+                <g class="tok tok--u" style="animation-delay:0s"><rect x="205" y="17" width="86" height="20" rx="6"/><text x="248" y="31">frames .png</text></g>
+                <g class="tok tok--u" style="animation-delay:.3s"><rect x="205" y="43" width="86" height="20" rx="6"/><text x="248" y="57">video .mp4</text></g>
+                <g class="tok tok--u" style="animation-delay:.6s"><rect x="205" y="69" width="86" height="20" rx="6"/><text x="248" y="83">radar .bin</text></g>
+                <g class="tok tok--s" style="animation-delay:.9s"><rect x="205" y="109" width="86" height="20" rx="6"/><text x="248" y="123">meta .json</text></g>
+                <g class="tok tok--s" style="animation-delay:1.2s"><rect x="205" y="131" width="86" height="20" rx="6"/><text x="248" y="145">logs .log</text></g>
+              </svg>
+            </div>
+            <div class="techrow">
+              <span class="tech"><img src="assets/logos/ffmpeg.svg" alt="">ffmpeg</span>
+              <span class="tech"><img src="assets/logos/numpy.svg" alt="">NumPy</span>
+              <span class="tech"><img src="assets/logos/scipy.svg" alt="">SciPy</span>
+              <span class="tech">matplotlib</span>
+              <span class="tech">base64 inline</span>
+            </div>
+          </article>
+
+          <!-- Engine 2: Search -->
+          <article class="module" data-reveal>
+            <div class="module__head">
+              <span class="module__ic"><svg class="ic"><use href="#i-search"/></svg></span>
+              <div><h3>Session &amp; entity search</h3><p>Look up a user, org, or device, then stream its sessions from across every source.</p></div>
+            </div>
+            <div class="module__viz">
+              <svg class="mviz" viewBox="0 0 300 176" role="img" aria-label="A search query fanning out to ClickHouse and Trino, then streaming result rows" data-flow>
+                <path class="miniedge" d="M120 38 C120 52 80 50 80 62"/>
+                <path class="miniedge" d="M180 38 C180 52 220 50 220 62"/>
+                <path class="miniedge" d="M80 92 V126"/>
+                <path class="miniedge" d="M220 92 V126"/>
+                <path class="route" d="M120 38 C120 52 80 50 80 62 V130"/>
+                <path class="route" d="M180 38 C180 52 220 50 220 62 V130"/>
+                <g class="packets"></g>
+                <g class="mnode"><rect x="8" y="8" width="284" height="30" rx="15"/><circle class="mstroke" cx="28" cy="23" r="6"/><path class="mstroke" d="M33 28l5 5"/><text class="mlbl" x="52" y="27" text-anchor="start">user &middot; org &middot; device</text></g>
+                <g class="mnode"><rect x="22" y="62" width="116" height="30" rx="8"/><svg class="brand" x="32" y="69" width="16" height="16" viewBox="0 0 24 24"><path fill="#dfe5ee" d="M21.333 10H24v4h-2.667ZM16 1.335h2.667v21.33H16Zm-5.333 0h2.666v21.33h-2.666ZM0 22.665V1.335h2.667v21.33zm5.333-21.33H8v21.33H5.333Z"/></svg><text class="mlbl" x="96" y="81">ClickHouse</text></g>
+                <g class="mnode"><rect x="162" y="62" width="116" height="30" rx="8"/><svg class="brand" x="172" y="69" width="16" height="16" viewBox="0 0 24 24"><path fill="#dfe5ee" d="M14.124 16.8529a.1615.1615 0 1 1 .1576.1614.1577.1577 0 0 1-.1576-.1614zm-5.607-.1576a.1614.1614 0 1 0 0 .3228.1614.1614 0 0 0 0-.3228zm10.1341-.6648v1.9869c-.031.5788-.524 1.0237-1.1029.9954h-.3843a5.0596 5.0596 0 0 1-1.1298 1.7178.3192.3192 0 0 0 0 .465l.2382.2191a.3036.3036 0 0 1 .0385.4304c-1.126 1.3835-2.9669 2.1521-5.0498 2.1521a6.575 6.575 0 0 1-4.8192-1.8985c-.0029-.0032-.0059-.0063-.0087-.0096a.6302.6302 0 0 1 .0548-.8896c.137-.1265.1371-.3462 0-.4727a4.944 4.944 0 0 1-1.126-1.714h-.3497c-.5797.0284-1.0737-.416-1.1068-.9954v-1.9869c.0351-.5779.5286-1.02 1.1068-.9915h.2728a5.7648 5.7648 0 0 1 2.0791-3.0936c-.4227-1.0991-1.1529-3.2551-1.226-5.0075C6.0229 4.4705 6.2189.078 7.8253.001c1.6064-.0768 1.3719 4.0275 1.0991 6.6946a32.732 32.732 0 0 0-.123 4.4503 6.994 6.994 0 0 1 2.4826-.4304 7.2414 7.2414 0 0 1 1.7371.2075c.2614-1.2682.8762-3.574 2.0292-5.1958 1.6717-2.352 3.4357-4.7808 4.6116-4.1006 1.176.6802-.3074 3.1398-1.3297 4.4272-1.0222 1.2874-2.7862 3.2089-3.3742 4.2274-.2114.3843-.4304.8032-.5956 1.1529a5.7375 5.7375 0 0 1 2.9169 3.6125h.073v-2.3058a.3075.3075 0 0 0-.1806-.2844.9148.9148 0 0 1-.5573-.8148 1.0184 1.0184 0 0 1 .9045-.9044c.5593-.0598 1.061.3452 1.1208.9044a.9187.9187 0 0 1-.5534.8148.3074.3074 0 0 0-.1691.2844v2.1522a.3113.3113 0 0 0 .1691.2805.9724.9724 0 0 1 .5648.857zm-1.0222-3.9737a.4345.4345 0 0 0 .4612-.4151.4151.4151 0 1 0-.4612.4151zm-.4227 3.4779c.0978.4794.148.9672.1498 1.4565v.3651h.4113a.3228.3228 0 0 0 .3228-.319v-1.0069c-.0111-.2967-.2733-.5256-.5688-.4957h-.3151zm-3.7278-4.481.611.2383a36.6046 36.6046 0 0 1 2.3828-3.8661c1.2874-1.7255 2.3365-3.5817 1.8715-3.8699-.465-.2883-1.6179 1.2297-2.7708 3.109a34.8978 34.8978 0 0 0-2.0945 4.3887zm-4.0544.6726.0154 1.3335c-.0039.2007.1881.3587.3843.3152a6.4317 6.4317 0 0 1 1.4565-.1653 5.995 5.995 0 0 1 1.4527.1729c.1956.0398.3853-.1153.3843-.3151v-1.3412a.319.319 0 0 0-.2421-.3113 6.664 6.664 0 0 0-1.6026-.1845 6.7093 6.7093 0 0 0-1.6025.1845.3188.3188 0 0 0-.246.3113zm1.7063 6.8637v.3843a.6878.6878 0 0 1-.4996.269c-.3074 0-.538-.4189-.538-.4189a.073.073 0 0 0-.1-.0307l-.0024.0013a.0693.0693 0 0 0-.0245.0947c.0115.0231.2806.4957.6649.4957a.7144.7144 0 0 0 .3843-.1268.3267.3267 0 0 1 .3612 0 .8332.8332 0 0 0 .4727.1345.957.957 0 0 0 .6572-.4803.0692.0692 0 0 0-.0269-.0961.0692.0692 0 0 0-.0999.0269c0 .0231-.2191.3843-.5419.4074a.8036.8036 0 0 1-.5765-.269v-.3843a.3154.3154 0 0 1 .1268-.2537c.196-.1499.415-.3958.415-.4919a.538.538 0 0 0-.5764-.4189c-.3766 0-.6533.2498-.6533.4573 0 .1345.2536.3382.4227.4612a.3226.3226 0 0 1 .1346.2383zM7.783 11.6455l.5765-.3074c-.0192-1.126-.0346-3.1436 0-4.5425.0538-2.0368.1537-4.5732-.5226-4.5463S6.6877 4.2285 6.949 7.007a33.0562 33.0562 0 0 0 .834 4.6385zm-3.305 5.3919a.319.319 0 0 0 .319.319h.3997a3.046 3.046 0 0 1 0-.3651 7.546 7.546 0 0 1 .1461-1.4565c-.0493.0002-.34.0005-.3866-.0021a.4881.4881 0 0 0-.4781.4979v1.0068zm.9184 1.4718a5.3254 5.3254 0 0 1-.123-.5573.3228.3228 0 0 0-.319-.2728h-.4957c.0007.0163-.0015.34.0009.355a.5188.5188 0 0 0 .5526.4827l.3842-.0076zm10.1265 2.917-.0884-.0807a.3229.3229 0 0 0-.3843-.0269 6.9823 6.9823 0 0 1-3.8046 1.0068 6.995 6.995 0 0 1-3.7932-1.0068.3228.3228 0 0 0-.3843.0269l-.0884.0807a.3154.3154 0 0 0 0 .4573 6.0305 6.0305 0 0 0 4.2927 1.5988 6.0453 6.0453 0 0 0 4.2889-1.5988.315.315 0 0 0-.0384-.4573zm1.4488-4.4158c0-2.4557-1.1529-4.3273-3.0245-5.2266-.2081-.1022-.4673.0594-.465.2921v1.3297a.3269.3269 0 0 0 .2037.296c1.7332.7109 2.9284 2.1866 2.9284 3.8776 0 2.2712-2.1559 3.8085-5.3419 3.8085-3.1859 0-5.3419-1.5411-5.3419-3.8085 0-1.691 1.1952-3.1667 2.9284-3.8776a.319.319 0 0 0 .2037-.296v-1.322c.0048-.2315-.2536-.3963-.4612-.2921-1.887.8839-3.0399 2.767-3.0399 5.2073 0 2.9899 2.2866 4.996 5.7108 4.996 3.4282.0001 5.6994-2.0098 5.6994-4.9844zm-8.6084-.538h-.0038a.5842.5842 0 1 0 .0038 0zm5.1614.5919c.0063.3226.2615.5789.584.5725a.5842.5842 0 1 0-.584-.5725zm4.5692.6225h-.4996a.3227.3227 0 0 0-.3151.2728c-.0346.173-.0768.3766-.1268.5573.0163.0007.3861-.0014.4012.0009a.5188.5188 0 0 0 .5366-.5004l.0037-.3306z"/></svg><text class="mlbl" x="234" y="81">Trino</text></g>
+                <text class="mcap" x="150" y="116">ndjson stream</text>
+                <rect class="srow" x="44" y="130" width="212" height="9" rx="4" style="animation-delay:0s"/>
+                <rect class="srow" x="44" y="146" width="212" height="9" rx="4" style="animation-delay:.35s"/>
+                <rect class="srow" x="44" y="162" width="212" height="9" rx="4" style="animation-delay:.7s"/>
+              </svg>
+            </div>
+            <div class="techrow">
+              <span class="tech"><img src="assets/logos/clickhouse.svg" alt="">ClickHouse</span>
+              <span class="tech"><img src="assets/logos/trino.svg" alt="">Trino</span>
+              <span class="tech">NDJSON / SSE</span>
+              <span class="tech">adaptive fan-out</span>
+            </div>
+          </article>
+
+          <!-- Engine 3: Analytics -->
+          <article class="module" data-reveal>
+            <div class="module__head">
+              <span class="module__ic"><svg class="ic"><use href="#i-chart"/></svg></span>
+              <div><h3>Analytics</h3><p>Interactive dashboards for data rate, quality tiers, comparisons, and AI-written insights.</p></div>
+            </div>
+            <div class="module__viz">
+              <svg class="mviz" viewBox="0 0 300 152" role="img" aria-label="An animated bar and line chart">
+                <path class="maxis" d="M22 16 V132 H292"/>
+                <rect class="bar" x="34"  y="52"  width="24" height="80"  rx="3" style="animation-delay:0s"/>
+                <rect class="bar" x="72"  y="30"  width="24" height="102" rx="3" style="animation-delay:.25s"/>
+                <rect class="bar" x="110" y="74"  width="24" height="58"  rx="3" style="animation-delay:.5s"/>
+                <rect class="bar" x="148" y="44"  width="24" height="88"  rx="3" style="animation-delay:.75s"/>
+                <rect class="bar" x="186" y="66"  width="24" height="66"  rx="3" style="animation-delay:1s"/>
+                <rect class="bar" x="224" y="36"  width="24" height="96"  rx="3" style="animation-delay:1.25s"/>
+                <rect class="bar" x="262" y="58"  width="24" height="74"  rx="3" style="animation-delay:1.5s"/>
+                <polyline class="mdraw" points="46,60 84,40 122,82 160,52 198,72 236,46 274,64"/>
+              </svg>
+            </div>
+            <div class="techrow">
+              <span class="tech"><img src="assets/logos/apacheecharts.svg" alt="">ECharts</span>
+              <span class="tech">&mu;Plot</span>
+              <span class="tech"><img src="assets/logos/pandas.svg" alt="">pandas</span>
+              <span class="tech"><img src="assets/logos/anthropic.svg" alt="">Claude insights</span>
+            </div>
+          </article>
+
+          <!-- Engine 4: Sampler -->
+          <article class="module" data-reveal>
+            <div class="module__head">
+              <span class="module__ic"><svg class="ic"><use href="#i-spark"/></svg></span>
+              <div><h3>Sampler</h3><p>Filter, count, and pull every matching archive with one generated command.</p></div>
+            </div>
+            <div class="module__viz">
+              <svg class="mviz" viewBox="0 0 300 152" role="img" aria-label="Filters producing a match count and a one-line pull command">
+                <g class="tok tok--s" style="animation-delay:0s"><rect x="6" y="14" width="78" height="22" rx="6"/><text x="45" y="29">device</text></g>
+                <g class="tok tok--s" style="animation-delay:.3s"><rect x="6" y="42" width="78" height="22" rx="6"/><text x="45" y="57">date range</text></g>
+                <g class="tok tok--s" style="animation-delay:.6s"><rect x="6" y="70" width="78" height="22" rx="6"/><text x="45" y="85">firmware</text></g>
+                <path class="miniedge" d="M84 53 H150"/>
+                <text class="count-big" x="222" y="52" text-anchor="middle">1,240</text>
+                <text class="mcap" x="222" y="70" text-anchor="middle">matches</text>
+                <rect class="term" x="6" y="110" width="288" height="32" rx="7"/>
+                <text class="termtext" x="16" y="130">$ curl &hellip; | xargs gsutil cp</text>
+                <rect class="cursor" x="232" y="120" width="7" height="13"/>
+              </svg>
+            </div>
+            <div class="techrow">
+              <span class="tech"><img src="assets/logos/python.svg" alt="">Python</span>
+              <span class="tech"><img src="assets/logos/googlecloud.svg" alt="">gsutil / GCS</span>
+              <span class="tech"><img src="assets/logos/amazonaws.svg" alt="">aws / S3</span>
+            </div>
+          </article>
+        </div>
+
+        <!-- Structured vs unstructured -->
+        <div class="dsplit">
+          <div class="dcol dcol--s" data-reveal>
+            <span class="dcol__tag">Structured &middot; pipeline</span>
+            <h3>A scheduled ETL pipeline</h3>
+            <svg class="mviz dviz" viewBox="0 0 300 150" role="img" aria-label="A daily Dockerized pipeline: sources federated by Trino, batch-loaded as aggregates into ClickHouse for BI" data-flow>
+              <g class="mnode"><rect x="8" y="6" width="120" height="22" rx="11"/><svg class="ic mbadge" x="16" y="10" width="14" height="14"><use href="#i-clock"/></svg><text class="mlbl" x="80" y="20">daily &middot; cron</text></g>
+              <g class="mnode"><rect x="200" y="6" width="92" height="22" rx="11"/><svg class="brand" x="210" y="10" width="14" height="14" viewBox="0 0 24 24"><path fill="#dfe5ee" d="M13.983 11.078h2.119a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.119a.185.185 0 00-.185.185v1.888c0 .102.083.185.185.185m-2.954-5.43h2.118a.186.186 0 00.186-.186V3.574a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m0 2.716h2.118a.187.187 0 00.186-.186V6.29a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.887c0 .102.082.185.185.186m-2.93 0h2.12a.186.186 0 00.184-.186V6.29a.185.185 0 00-.185-.185H8.1a.185.185 0 00-.185.185v1.887c0 .102.083.185.185.186m-2.964 0h2.119a.186.186 0 00.185-.186V6.29a.185.185 0 00-.185-.185H5.136a.186.186 0 00-.186.185v1.887c0 .102.084.185.186.186m5.893 2.715h2.118a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m-2.93 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.083.185.185.185m-2.964 0h2.119a.185.185 0 00.185-.185V9.006a.185.185 0 00-.184-.186h-2.12a.186.186 0 00-.186.186v1.887c0 .102.084.185.186.185m-2.92 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.082.185.185.185M23.763 9.89c-.065-.051-.672-.51-1.954-.51-.338.001-.676.03-1.01.087-.248-1.7-1.653-2.53-1.716-2.566l-.344-.199-.226.327c-.284.438-.49.922-.612 1.43-.23.97-.09 1.882.403 2.661-.595.332-1.55.413-1.744.42H.751a.751.751 0 00-.75.748 11.376 11.376 0 00.692 4.062c.545 1.428 1.355 2.48 2.41 3.124 1.18.723 3.1 1.137 5.275 1.137.983.003 1.963-.086 2.93-.266a12.248 12.248 0 003.823-1.389c.98-.567 1.86-1.288 2.61-2.136 1.252-1.418 1.998-2.997 2.553-4.4h.221c1.372 0 2.215-.549 2.68-1.009.309-.293.55-.65.707-1.046l.098-.288Z"/></svg><text class="mlbl" x="256" y="20">docker</text></g>
+              <path class="route" d="M34 86 H286"/>
+              <path class="miniedge" d="M58 86 H92"/>
+              <path class="miniedge" d="M142 86 H176"/>
+              <path class="miniedge" d="M226 86 H252"/>
+              <g class="packets"></g>
+              <g class="mnode"><rect x="8" y="66" width="50" height="40" rx="10"/><svg class="ic mbadge" x="21" y="74" width="24" height="24"><use href="#i-db"/></svg></g>
+              <text class="mlbl" x="33" y="122">sources</text>
+              <g class="mnode"><rect x="92" y="66" width="50" height="40" rx="10"/><svg class="brand" x="105" y="74" width="24" height="24" viewBox="0 0 24 24"><path fill="#dfe5ee" d="M14.124 16.8529a.1615.1615 0 1 1 .1576.1614.1577.1577 0 0 1-.1576-.1614zm-5.607-.1576a.1614.1614 0 1 0 0 .3228.1614.1614 0 0 0 0-.3228zm10.1341-.6648v1.9869c-.031.5788-.524 1.0237-1.1029.9954h-.3843a5.0596 5.0596 0 0 1-1.1298 1.7178.3192.3192 0 0 0 0 .465l.2382.2191a.3036.3036 0 0 1 .0385.4304c-1.126 1.3835-2.9669 2.1521-5.0498 2.1521a6.575 6.575 0 0 1-4.8192-1.8985c-.0029-.0032-.0059-.0063-.0087-.0096a.6302.6302 0 0 1 .0548-.8896c.137-.1265.1371-.3462 0-.4727a4.944 4.944 0 0 1-1.126-1.714h-.3497c-.5797.0284-1.0737-.416-1.1068-.9954v-1.9869c.0351-.5779.5286-1.02 1.1068-.9915h.2728a5.7648 5.7648 0 0 1 2.0791-3.0936c-.4227-1.0991-1.1529-3.2551-1.226-5.0075C6.0229 4.4705 6.2189.078 7.8253.001c1.6064-.0768 1.3719 4.0275 1.0991 6.6946a32.732 32.732 0 0 0-.123 4.4503 6.994 6.994 0 0 1 2.4826-.4304 7.2414 7.2414 0 0 1 1.7371.2075c.2614-1.2682.8762-3.574 2.0292-5.1958 1.6717-2.352 3.4357-4.7808 4.6116-4.1006 1.176.6802-.3074 3.1398-1.3297 4.4272-1.0222 1.2874-2.7862 3.2089-3.3742 4.2274-.2114.3843-.4304.8032-.5956 1.1529a5.7375 5.7375 0 0 1 2.9169 3.6125h.073v-2.3058a.3075.3075 0 0 0-.1806-.2844.9148.9148 0 0 1-.5573-.8148 1.0184 1.0184 0 0 1 .9045-.9044c.5593-.0598 1.061.3452 1.1208.9044a.9187.9187 0 0 1-.5534.8148.3074.3074 0 0 0-.1691.2844v2.1522a.3113.3113 0 0 0 .1691.2805.9724.9724 0 0 1 .5648.857zm-1.0222-3.9737a.4345.4345 0 0 0 .4612-.4151.4151.4151 0 1 0-.4612.4151zm-.4227 3.4779c.0978.4794.148.9672.1498 1.4565v.3651h.4113a.3228.3228 0 0 0 .3228-.319v-1.0069c-.0111-.2967-.2733-.5256-.5688-.4957h-.3151zm-3.7278-4.481.611.2383a36.6046 36.6046 0 0 1 2.3828-3.8661c1.2874-1.7255 2.3365-3.5817 1.8715-3.8699-.465-.2883-1.6179 1.2297-2.7708 3.109a34.8978 34.8978 0 0 0-2.0945 4.3887zm-4.0544.6726.0154 1.3335c-.0039.2007.1881.3587.3843.3152a6.4317 6.4317 0 0 1 1.4565-.1653 5.995 5.995 0 0 1 1.4527.1729c.1956.0398.3853-.1153.3843-.3151v-1.3412a.319.319 0 0 0-.2421-.3113 6.664 6.664 0 0 0-1.6026-.1845 6.7093 6.7093 0 0 0-1.6025.1845.3188.3188 0 0 0-.246.3113zm1.7063 6.8637v.3843a.6878.6878 0 0 1-.4996.269c-.3074 0-.538-.4189-.538-.4189a.073.073 0 0 0-.1-.0307l-.0024.0013a.0693.0693 0 0 0-.0245.0947c.0115.0231.2806.4957.6649.4957a.7144.7144 0 0 0 .3843-.1268.3267.3267 0 0 1 .3612 0 .8332.8332 0 0 0 .4727.1345.957.957 0 0 0 .6572-.4803.0692.0692 0 0 0-.0269-.0961.0692.0692 0 0 0-.0999.0269c0 .0231-.2191.3843-.5419.4074a.8036.8036 0 0 1-.5765-.269v-.3843a.3154.3154 0 0 1 .1268-.2537c.196-.1499.415-.3958.415-.4919a.538.538 0 0 0-.5764-.4189c-.3766 0-.6533.2498-.6533.4573 0 .1345.2536.3382.4227.4612a.3226.3226 0 0 1 .1346.2383zM7.783 11.6455l.5765-.3074c-.0192-1.126-.0346-3.1436 0-4.5425.0538-2.0368.1537-4.5732-.5226-4.5463S6.6877 4.2285 6.949 7.007a33.0562 33.0562 0 0 0 .834 4.6385zm-3.305 5.3919a.319.319 0 0 0 .319.319h.3997a3.046 3.046 0 0 1 0-.3651 7.546 7.546 0 0 1 .1461-1.4565c-.0493.0002-.34.0005-.3866-.0021a.4881.4881 0 0 0-.4781.4979v1.0068zm.9184 1.4718a5.3254 5.3254 0 0 1-.123-.5573.3228.3228 0 0 0-.319-.2728h-.4957c.0007.0163-.0015.34.0009.355a.5188.5188 0 0 0 .5526.4827l.3842-.0076zm10.1265 2.917-.0884-.0807a.3229.3229 0 0 0-.3843-.0269 6.9823 6.9823 0 0 1-3.8046 1.0068 6.995 6.995 0 0 1-3.7932-1.0068.3228.3228 0 0 0-.3843.0269l-.0884.0807a.3154.3154 0 0 0 0 .4573 6.0305 6.0305 0 0 0 4.2927 1.5988 6.0453 6.0453 0 0 0 4.2889-1.5988.315.315 0 0 0-.0384-.4573zm1.4488-4.4158c0-2.4557-1.1529-4.3273-3.0245-5.2266-.2081-.1022-.4673.0594-.465.2921v1.3297a.3269.3269 0 0 0 .2037.296c1.7332.7109 2.9284 2.1866 2.9284 3.8776 0 2.2712-2.1559 3.8085-5.3419 3.8085-3.1859 0-5.3419-1.5411-5.3419-3.8085 0-1.691 1.1952-3.1667 2.9284-3.8776a.319.319 0 0 0 .2037-.296v-1.322c.0048-.2315-.2536-.3963-.4612-.2921-1.887.8839-3.0399 2.767-3.0399 5.2073 0 2.9899 2.2866 4.996 5.7108 4.996 3.4282.0001 5.6994-2.0098 5.6994-4.9844zm-8.6084-.538h-.0038a.5842.5842 0 1 0 .0038 0zm5.1614.5919c.0063.3226.2615.5789.584.5725a.5842.5842 0 1 0-.584-.5725zm4.5692.6225h-.4996a.3227.3227 0 0 0-.3151.2728c-.0346.173-.0768.3766-.1268.5573.0163.0007.3861-.0014.4012.0009a.5188.5188 0 0 0 .5366-.5004l.0037-.3306z"/></svg></g>
+              <text class="mlbl" x="117" y="122">Trino &middot; ELT</text>
+              <g class="mnode"><rect x="176" y="66" width="50" height="40" rx="10"/><svg class="brand" x="189" y="74" width="24" height="24" viewBox="0 0 24 24"><path fill="#dfe5ee" d="M21.333 10H24v4h-2.667ZM16 1.335h2.667v21.33H16Zm-5.333 0h2.666v21.33h-2.666ZM0 22.665V1.335h2.667v21.33zm5.333-21.33H8v21.33H5.333Z"/></svg></g>
+              <text class="mlbl" x="201" y="122">ClickHouse</text>
+              <g class="mnode"><rect x="252" y="66" width="40" height="40" rx="10"/><svg class="ic mbadge" x="260" y="74" width="24" height="24"><use href="#i-chart"/></svg></g>
+              <text class="mlbl" x="272" y="122">BI</text>
+            </svg>
+            <p>Trino federates the sources; a daily, Dockerized batch job lands rollups in ClickHouse for the dashboards.</p>
+          </div>
+          <div class="dcol dcol--u" data-reveal>
+            <span class="dcol__tag">Unstructured &middot; on demand</span>
+            <h3>Media &amp; signal</h3>
+            <svg class="mviz dviz" viewBox="0 0 300 150" role="img" aria-label="A film strip of frames being scrubbed and an animated two-channel radar I/Q signal">
+              <rect x="8" y="14" width="284" height="52" rx="6" class="strip-bg"/>
+              <rect x="18" y="24" width="56" height="34" rx="4" class="frame"/>
+              <rect x="82" y="24" width="56" height="34" rx="4" class="frame"/>
+              <rect x="146" y="24" width="56" height="34" rx="4" class="frame"/>
+              <rect x="210" y="24" width="56" height="34" rx="4" class="frame"/>
+              <path class="frame-play" d="M232 33 v16 l14 -8 z"/>
+              <rect class="playhead" x="18" y="18" width="3" height="44"/>
+              <text class="mcap" x="8" y="88" text-anchor="start">frames &middot; video</text>
+              <text class="mcap" x="292" y="88" text-anchor="end">radar I/Q &rarr; FFT</text>
+              <path class="iqI" d="M8 120 q9 -18 18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0"/>
+              <path class="iqQ" d="M8 120 q9 18 18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0"/>
+            </svg>
+            <p>Image frames &middot; video &middot; radar / IQ signal &middot; run logs &middot; nested JSON blobs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== AUTOMATION LOOP ===================== -->
+    <section class="section" id="automation">
+      <div class="wrap">
+        <header class="shead shead--center" data-reveal>
+          <p class="shead__kicker center"><svg class="ic"><use href="#i-loop"/></svg> 05 &middot; Process automation</p>
+          <h2 class="shead__title">QA results that report themselves.</h2>
+          <p class="shead__sub">A pipeline I built so quality reaches the team with no human in the loop.</p>
+        </header>
+
+        <figure class="qaflow" data-reveal>
+          <div class="dscroll"><svg id="qa" viewBox="0 0 900 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Automated QA pipeline: automated test results ingested to ClickHouse and Superset, then a Teams notification tells the team the dashboards are ready and links to the exact session in the viewer.">
+            <g class="qa-line" fill="none" stroke-width="2"><path class="edge" d="M92 64 H188"/><path class="edge" d="M252 64 H348"/><path class="edge" d="M412 64 H508"/></g>
+            <path class="miniedge" d="M572 74 C650 92 664 116 690 132"/>
+            <path class="miniedge" d="M732 138 C754 134 758 132 772 132"/>
+            <path class="miniedge" d="M732 164 C754 172 760 184 772 184"/>
+            <path class="route" d="M60 64 H540"/>
+            <path class="route" d="M540 64 C650 90 664 116 700 150"/>
+            <g class="packets"></g>
+            <g class="qnode"><rect x="30" y="34" width="60" height="60" rx="16"/><svg class="nic" x="48" y="52" width="24" height="24"><use href="#i-bot"/></svg><text x="60" y="112">Automated testing</text></g>
+            <g class="qnode"><rect x="190" y="34" width="60" height="60" rx="16"/><svg class="brand" x="208" y="52" width="24" height="24" viewBox="0 0 24 24"><path fill="#dfe5ee" d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/></svg><text x="220" y="112">Ingest</text></g>
+            <g class="qnode"><rect x="350" y="34" width="60" height="60" rx="16"/><svg class="brand" x="368" y="52" width="24" height="24" viewBox="0 0 24 24"><path fill="#dfe5ee" d="M21.333 10H24v4h-2.667ZM16 1.335h2.667v21.33H16Zm-5.333 0h2.666v21.33h-2.666ZM0 22.665V1.335h2.667v21.33zm5.333-21.33H8v21.33H5.333Z"/></svg><text x="380" y="112">ClickHouse</text></g>
+            <g class="qnode"><rect x="510" y="34" width="60" height="60" rx="16"/><svg class="brand" x="528" y="52" width="24" height="24" viewBox="0 0 24 24"><path fill="#dfe5ee" d="M6.168 6.045C2.603 6.045 0 8.579 0 12.014c0 3.434 2.603 5.941 6.168 5.941 2.184 0 3.888-1.026 5.775-3.078 1.53 2.033 4.037 3.136 5.89 3.078 3.566 0 6.167-2.503 6.167-5.941 0-3.438-2.601-5.97-6.168-5.97-2.864 0-5.138 2.425-5.771 3.173-.76-.9-1.674-1.665-2.682-2.274-1.019-.588-2.084-.898-3.211-.898Zm2.875 1.303c1.156.595 1.952 1.42 2.639 2.304-.534.63-1.245 1.483-1.739 2.07-.56-.658-1.58-1.907-2.609-2.308ZM6.186 9.703c1.018.027 1.81.458 3.435 2.408-1.158 1.378-2.202 2.244-3.435 2.244-1.51 0-2.41-.99-2.41-2.31s.906-2.382 2.41-2.342zm11.535 0c1.51 0 2.408 1.026 2.408 2.342 0 1.315-.862 2.301-2.402 2.31-.571-.037-1.529-.026-3.442-2.314l.074-.09.002.002c1.122-1.328 2.097-2.25 3.36-2.25zm-3.762 2.738c.61.68 1.795 1.988 2.713 2.24l-1.684 2.016h-.002c-.753-.371-2.031-1.134-2.716-2.215l1.689-2.04z"/></svg><text x="540" y="112">Superset</text></g>
+            <text class="mcap" x="620" y="56">notify</text>
+            <g class="qnode qnode--out"><circle cx="700" cy="150" r="30"/><svg class="brand" x="687" y="137" width="26" height="26" viewBox="0 0 24 24"><path fill="#dfe5ee" d="M20.625 8.127q-.55 0-1.025-.205-.475-.205-.832-.563-.358-.357-.563-.832Q18 6.053 18 5.502q0-.54.205-1.02t.563-.837q.357-.358.832-.563.474-.205 1.025-.205.54 0 1.02.205t.837.563q.358.357.563.837.205.48.205 1.02 0 .55-.205 1.025-.205.475-.563.832-.357.358-.837.563-.48.205-1.02.205zm0-3.75q-.469 0-.797.328-.328.328-.328.797 0 .469.328.797.328.328.797.328.469 0 .797-.328.328-.328.328-.797 0-.469-.328-.797-.328-.328-.797-.328zM24 10.002v5.578q0 .774-.293 1.46-.293.685-.803 1.194-.51.51-1.195.803-.686.293-1.459.293-.445 0-.908-.105-.463-.106-.85-.329-.293.95-.855 1.729-.563.78-1.319 1.336-.756.557-1.67.861-.914.305-1.898.305-1.148 0-2.162-.398-1.014-.399-1.805-1.102-.79-.703-1.312-1.664t-.674-2.086h-5.8q-.411 0-.704-.293T0 16.881V6.873q0-.41.293-.703t.703-.293h8.59q-.34-.715-.34-1.5 0-.727.275-1.365.276-.639.75-1.114.475-.474 1.114-.75.638-.275 1.365-.275t1.365.275q.639.276 1.114.75.474.475.75 1.114.275.638.275 1.365t-.275 1.365q-.276.639-.75 1.113-.475.475-1.114.75-.638.276-1.365.276-.188 0-.375-.024-.188-.023-.375-.058v1.078h10.875q.469 0 .797.328.328.328.328.797zM12.75 2.373q-.41 0-.78.158-.368.158-.638.434-.27.275-.428.639-.158.363-.158.773 0 .41.158.78.159.368.428.638.27.27.639.428.369.158.779.158.41 0 .773-.158.364-.159.64-.428.274-.27.433-.639.158-.369.158-.779 0-.41-.158-.773-.159-.364-.434-.64-.275-.275-.639-.433-.363-.158-.773-.158zM6.937 9.814h2.25V7.94H2.814v1.875h2.25v6h1.875zm10.313 7.313v-6.75H12v6.504q0 .41-.293.703t-.703.293H8.309q.152.809.556 1.5.405.691.985 1.19.58.497 1.318.779.738.281 1.582.281.926 0 1.746-.352.82-.351 1.436-.966.615-.616.966-1.43.352-.815.352-1.752zm5.25-1.547v-5.203h-3.75v6.855q.305.305.691.452.387.146.809.146.469 0 .879-.176.41-.175.715-.48.304-.305.48-.715t.176-.879Z"/></svg><text x="700" y="202">Teams</text></g>
+            <g class="viewchip"><rect x="772" y="118" width="126" height="28" rx="8"/><svg class="nic vic" x="782" y="124" width="16" height="16"><use href="#i-chart"/></svg><text x="806" y="136">dashboards</text></g>
+            <g class="viewchip"><rect x="772" y="170" width="126" height="28" rx="8"/><svg class="nic vic" x="782" y="176" width="16" height="16"><use href="#i-monitor"/></svg><text x="806" y="187">view sessions</text></g>
+            <text class="mcap" x="700" y="230">informs the team</text>
+          </svg></div>
+          <figcaption>When a test run finishes, results land in ClickHouse, refresh the dashboards, and Teams posts the channel a link straight to the session.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===================== ROLES AS LENSES ===================== -->
+    <section class="section" id="lenses">
+      <div class="wrap">
+        <header class="shead" data-reveal>
+          <p class="shead__kicker"><svg class="ic"><use href="#i-compass"/></svg> 06 &middot; Roles as lenses</p>
+          <h2 class="shead__title">A problem-solver first.</h2>
+          <p class="shead__sub">I start with the problem, not a job title. Solving it well usually means owning the whole thing: the data, the platform, the interface, the deployment, and what it costs to run. Each part sized to what the company needs now, and built to scale later.</p>
+        </header>
+        <div class="lens-grid">
+          <article class="lens" data-reveal><span class="lens__ic"><svg class="ic"><use href="#i-chart"/></svg></span><h3>Data Analyst</h3><p>Turning raw data into quality metrics teams can track.</p></article>
+          <article class="lens" data-reveal><span class="lens__ic"><svg class="ic"><use href="#i-pipe"/></svg></span><h3>Data Engineer</h3><p>Building the pipelines and aggregates that keep the numbers fresh.</p></article>
+          <article class="lens" data-reveal><span class="lens__ic"><svg class="ic"><use href="#i-network"/></svg></span><h3>Platform Engineer</h3><p>Federation, caching, and streaming APIs that make data quick to reach.</p></article>
+          <article class="lens" data-reveal><span class="lens__ic"><svg class="ic"><use href="#i-blueprint"/></svg></span><h3>Data Architect</h3><p>Designing schemas and changing them without breaking what already exists.</p></article>
+          <article class="lens" data-reveal><span class="lens__ic"><svg class="ic"><use href="#i-code"/></svg></span><h3>Full-Stack / UI-UX</h3><p>The app itself: its layout, interactions, and motion.</p></article>
+          <article class="lens" data-reveal><span class="lens__ic"><svg class="ic"><use href="#i-loop"/></svg></span><h3>Process Improvement</h3><p>Self-serve tools that remove the manual bottlenecks.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TECH STACK (logo wall) ===================== -->
+    <section class="section band" id="toolbox">
+      <div class="wrap">
+        <header class="shead shead--center" data-reveal>
+          <p class="shead__kicker center"><svg class="ic"><use href="#i-code"/></svg> 07 &middot; Stack</p>
+          <h2 class="shead__title">Industry-standard tools, end to end.</h2>
+        </header>
+        <div class="logos" data-reveal>
+          <div class="logo" title="Python"><img loading="lazy" src="assets/logos/python.svg" alt="Python"><span>Python</span></div>
+          <div class="logo" title="FastAPI"><img loading="lazy" src="assets/logos/fastapi.svg" alt="FastAPI"><span>FastAPI</span></div>
+          <div class="logo" title="JavaScript"><img loading="lazy" src="assets/logos/javascript.svg" alt="JavaScript"><span>JavaScript</span></div>
+          <div class="logo" title="ClickHouse"><img loading="lazy" src="assets/logos/clickhouse.svg" alt="ClickHouse"><span>ClickHouse</span></div>
+          <div class="logo" title="Trino"><img loading="lazy" src="assets/logos/trino.svg" alt="Trino"><span>Trino</span></div>
+          <div class="logo" title="SQLite"><img loading="lazy" src="assets/logos/sqlite.svg" alt="SQLite"><span>SQLite</span></div>
+          <div class="logo" title="Amazon Web Services"><img loading="lazy" src="assets/logos/amazonaws.svg" alt="AWS"><span>AWS S3</span></div>
+          <div class="logo" title="Google Cloud"><img loading="lazy" src="assets/logos/googlecloud.svg" alt="Google Cloud"><span>Google Cloud</span></div>
+          <div class="logo" title="Docker"><img loading="lazy" src="assets/logos/docker.svg" alt="Docker"><span>Docker</span></div>
+          <div class="logo" title="Cloudflare"><img loading="lazy" src="assets/logos/cloudflare.svg" alt="Cloudflare"><span>Cloudflare</span></div>
+          <div class="logo" title="Apache Superset"><img loading="lazy" src="assets/logos/apachesuperset.svg" alt="Apache Superset"><span>Superset</span></div>
+          <div class="logo" title="Microsoft Teams"><img loading="lazy" src="assets/logos/microsoftteams.svg" alt="Microsoft Teams"><span>Teams</span></div>
+          <div class="logo" title="Anthropic"><img loading="lazy" src="assets/logos/anthropic.svg" alt="Anthropic"><span>Claude / LLM</span></div>
+          <div class="logo" title="NumPy"><img loading="lazy" src="assets/logos/numpy.svg" alt="NumPy"><span>NumPy</span></div>
+          <div class="logo" title="pandas"><img loading="lazy" src="assets/logos/pandas.svg" alt="pandas"><span>pandas</span></div>
+          <div class="logo" title="FFmpeg"><img loading="lazy" src="assets/logos/ffmpeg.svg" alt="FFmpeg"><span>ffmpeg</span></div>
+          <div class="logo" title="CI / CD"><img loading="lazy" src="assets/logos/githubactions.svg" alt="CI/CD"><span>CI / CD</span></div>
+          <div class="logo" title="Git / GitLab / Bitbucket"><img loading="lazy" src="assets/logos/git.svg" alt="Git"><span>Git &middot; GitLab &middot; Bitbucket</span></div>
+          <div class="logo" title="PostgreSQL"><img loading="lazy" src="assets/logos/postgresql.svg" alt="PostgreSQL"><span>PostgreSQL</span></div>
+          <div class="logo" title="MongoDB"><img loading="lazy" src="assets/logos/mongodb.svg" alt="MongoDB"><span>MongoDB</span></div>
+          <div class="logo" title="Elasticsearch"><img loading="lazy" src="assets/logos/elasticsearch.svg" alt="Elasticsearch"><span>Elasticsearch</span></div>
+          <div class="logo" title="Google BigQuery"><img loading="lazy" src="assets/logos/googlebigquery.svg" alt="BigQuery"><span>BigQuery</span></div>
+          <div class="logo" title="DuckDB"><img loading="lazy" src="assets/logos/duckdb.svg" alt="DuckDB"><span>DuckDB</span></div>
+          <div class="logo" title="Polars"><img loading="lazy" src="assets/logos/polars.svg" alt="Polars"><span>Polars</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section contact" id="contact">
+      <div class="wrap contact__inner" data-reveal>
+        <p class="shead__kicker center"><svg class="ic"><use href="#i-mail"/></svg> 08 &middot; Contact</p>
+        <h2 class="contact__title">Let's talk about hard, ambiguous data problems.</h2>
+        <p class="contact__lede">I do my best work where the scope is unclear and the decisions are mine to make.</p>
+        <div class="hero__ctas">
+          <a class="btn btn--primary" href="https://www.linkedin.com/in/adrianus-tjoatja-widjaja-a96b75177/" target="_blank" rel="noopener"><svg class="ic"><use href="#i-linkedin"/></svg> LinkedIn</a>
+          <a class="btn" href="mailto:adrianus.t.widjaja@gmail.com"><svg class="ic"><use href="#i-mail"/></svg> adrianus.t.widjaja@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Adrianus Tjoatja Widjaja &middot; Data &amp; Platform Engineering &middot; currently at Rapsodo</p>
+    <p class="footer__meta">Built from scratch &middot; no framework &middot; <a href="#top">back to top &uarr;</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+  <script src="js/main.js?v=17" defer></script>
+</body>
+</html>
