@@ -79,7 +79,12 @@ strong{color:var(--bright);font-weight:600;}
 @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(45,212,191,.5)}70%{box-shadow:0 0 0 10px rgba(45,212,191,0)}100%{box-shadow:0 0 0 0 rgba(45,212,191,0)}}
 .hero__title{font-size:clamp(38px,5.6vw,74px);font-weight:900;letter-spacing:-.03em;}
 .hero__title .line{display:block;}
-.hero__title .accent{background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;}
+/* Gradient clip on BOTH the line and its wrapped words: main.js splits the
+   accent line into .word spans and transforms them (translateY), which makes
+   each word paint in its own layer and drop out of the parent's clip. Giving
+   each word its own gradient clip keeps it visible regardless of transform. */
+.hero__title .accent,
+.hero__title .accent .word{background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;}
 .hero__title .word{display:inline-block;}
 .hero__rotator{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-top:24px;font-size:clamp(17px,2.4vw,22px);}
 .hero__rotator-label{color:var(--muted);}
